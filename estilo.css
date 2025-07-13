@@ -42,12 +42,12 @@ title{
     font-size: 20px;
     color: blue;
 }
-/* CSS */
+
 .card-grid {
     margin-top: 180px;
     margin: 180px auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 3 colunas fixas */
+    grid-template-columns: repeat(4, 1fr);
     gap: 60px;
   padding: 170px;
     
@@ -97,7 +97,6 @@ cursor: pointer;
 
   .img-catupiry {
     width: 100%;
-    height: px; /* ou maior, se quiser */
     object-fit: cover;
   }
   
