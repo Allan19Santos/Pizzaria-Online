@@ -1,0 +1,158 @@
+body{
+    background-image: url(imagens/pizza2.jpg);
+}
+
+nav {
+  width: 100%;
+    background-color: rgb(238, 11, 11);
+    
+    
+    
+}
+nav ul{
+    
+    user-select: none;
+    list-style: none;
+    margin: 20px;
+    padding: 0 auto;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0;
+    margin-right: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 35px 20px;
+    display:flex;
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover{
+    font-size: 20px;
+    color: bisque;
+    transition: font-size 0.5s ease;
+}
+.icon {
+ font-size: 30px;
+ 
+}
+title{
+    font-size: 20px;
+    color: blue;
+}
+/* CSS */
+.card-grid {
+    margin-top: 180px;
+    margin: 180px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 colunas fixas */
+    gap: 60px;
+  padding: 170px;
+    
+  }
+
+.card {
+cursor: pointer;
+    display: block;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s;
+
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 95%;
+    height: auto;
+    display: flex;
+  }
+
+
+  .card-content {
+    padding: 15px;
+  }
+  
+  h2{
+    justify-content: center;
+    display: flex;
+  }
+
+  .card-content h2 {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    color: #444;
+  }
+
+  .img-catupiry {
+    width: 100%;
+    height: px; /* ou maior, se quiser */
+    object-fit: cover;
+  }
+  
+
+  .btn {
+   
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 9px;
+    justify-content: center;
+    display: flex;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-comprar,
+  .btn-carrinho {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+ text-align: center;
+ margin: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #218838;
+  }
+  
+  .btn-carrinho {
+    background-color: #007bff;
+  }
+  
+  .btn-carrinho:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .footer{
+background-color: rgb(238, 11, 11)
+  }
+
+  .nome-produto {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;  /* cor azul escura */
+    margin-right: 8px;
+  }
+  
