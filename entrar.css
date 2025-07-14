@@ -1,0 +1,68 @@
+body{
+    background-image: url(imagens/pizza2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card {
+    display: block;
+    margin: 5rem ;
+    padding: 4rem;
+    height: 26rem;
+    background-color: rgb(192, 18, 18);
+    box-shadow: 1rem 2rem 4rem rgba(0, 0, 0, 1);
+    border-radius: 1rem;
+    transition: transform 0.4s;
+    cursor: pointer;
+
+}
+.container:hover {
+    transform: translateY(-.5rem);
+  }
+
+.card h1{
+    font-size: 2.4rem;
+    margin-top: 1.2rem;
+    justify-content: center;
+    display: flex;
+}
+
+label{
+    display: flex;
+    padding: 0.3rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    padding: 0.6rem 2rem;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    
+}
+
+.botao{
+    display: flex;
+    background-color:rgb(190, 186, 186);
+    font-size: 0.8rem;
+    margin-top: 3.2rem ;
+    padding: 0.7rem 4.3rem; 
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 4.0s;
+
+}
+
+.botao:hover{
+    background-color: rgb(177, 170, 170);
+}
+
+.esqueceu-senha{
+    display: flex;
+    font-size: 0.9rem;
+    color: rgb(14, 2, 85);
+    text-decoration: none;
+}
+.esqueceu-senha:hover {
+    text-decoration: underline;
+  }
