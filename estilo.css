@@ -1,4 +1,5 @@
 body{
+  width: 100%;
     background-image: url(imagens/pizza2.jpg);
 }
 
@@ -15,9 +16,8 @@ nav ul{
     user-select: none;
     list-style: none;
     margin-top: 2rem;
-    padding: 0 auto;
     display: flex;
-    gap: 9rem;
+    gap: 3rem;
     justify-content: center;
 }
 nav ul li {
@@ -52,22 +52,23 @@ title{
 }
 
 .card-grid {
-    margin-top: 1rem;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 60px;
-  padding: 170px;
-    
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 4.2rem;
+  max-width: 1200px;
+  margin: 8rem auto;
+}
 
-.card {
-cursor: pointer;
-    display: block;
-    width: 350px;
+
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     background: #ffffff;
+    cursor: pointer;
     font-family: Arial, sans-serif;
     transition: transform 0.3s;
 
