@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body{
+    background-image: url(imagens/pizza2.jpg);
+   
+}
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    nav {
+        width: 100%;
+        height: 8rem;
+        margin-top: 2rem;
+
+          background-color: rgb(192, 18, 18);
+          }
+    
+         .logo{
+            display: flex;
+            height: 6rem;
+            align-items: center;
+            padding-top: 1.5rem;
+            margin-left: 19.4rem;
+         }
+          
+
+    .card{
+    overflow-y: auto;
+   width: 24rem;
+    height: 36rem;
+   padding: 1.4rem;
+    display: block;
+    background-color: white;
+    border-radius: 8px;
+    }
+
+    
+    .lista{
+     padding: 1.8rem;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    h1{
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+    }
+    
+    .botoes{
+    margin: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    }
+    
+    .btn-confirmar, .btn-inicial{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    
+    }
+    .btn-confirmar:hover,
+    .btn-inicial:hover {
+    background-color: #0056b3;
+    }
+    
+    p{
+    font-weight: bold;
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: brown;
+    }
+    #lista-carrinho li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    }
+    .nome-produto {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-right: 8px;
+    }
+    .preco-produto {
+    color: #27ae60; /* verde */
+    font-weight: 600;
+    font-size: 1.1rem;
+    }
+    .btn-remover {
+    background-color: #e74c3c; /* vermelho */
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    }
+    .btn-remover:hover {
+    background-color: #c0392b; /* vermelho escuro no hover */
+    }
+    
