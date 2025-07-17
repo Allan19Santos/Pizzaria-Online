@@ -41,19 +41,22 @@ input{
     
 }
 
-.botao{
-    display: flex;
+.botao,
+.botao-cadastro{
+    display: block;
     background-color:rgb(190, 186, 186);
+    width: 16rem;
     font-size: 0.8rem;
-    margin-top: 3.2rem ;
-    padding: 0.7rem 4.3rem; 
+    margin-top: 1.4rem;
+    padding: 0.8rem 4.2rem; 
     border-radius: 0.5rem;
     cursor: pointer;
     transition: transform 4.0s;
 
 }
 
-.botao:hover{
+.botao:hover,
+ .botao-cadastro:hover{
     background-color: rgb(177, 170, 170);
 }
 
