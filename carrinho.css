@@ -35,7 +35,7 @@ body{
 
     .card{
     overflow-y: auto;
-   width: 24rem;
+   width: 28rem;
     height: 36rem;
    padding: 1.4rem;
     display: block;
@@ -45,7 +45,7 @@ body{
 
     
     .lista{
-     padding: 1.8rem;
+     margin: 2rem;
      justify-content: center;
      align-items: center;
     }

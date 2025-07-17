@@ -70,7 +70,7 @@ title{
   .card {
     width: 100%;
     max-width: 350px;
-    margin: auto;
+    padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     background: #ffffff;
@@ -98,6 +98,7 @@ title{
   h2{
     justify-content: center;
     display: flex;
+    padding: 0.8rem;
   }
 
   .card-content h2 {
