@@ -118,15 +118,11 @@ title{
   
 
   .btn {
-   
-    margin-top: 25px;
-    margin-bottom: 20px;
-    padding: 9px;
     justify-content: center;
     display: flex;
     background-color: #007bff;
     color: white;
-    border-radius: 6px;
+    border-radius: 0.3rem;
     text-decoration: none;
   }
   
@@ -138,12 +134,12 @@ title{
   .btn-carrinho {
     background-color: #28a745;
     color: white;
-    padding: 10px 16px;
+    padding: 0.2rem 6rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     cursor: pointer;
  text-align: center;
- margin: auto;
+ margin: 0.3rem;
     transition: background-color 0.3s ease;
   }
   
@@ -157,6 +153,10 @@ title{
   
   .btn-carrinho:hover {
     background-color: #0056b3;
+  }
+  
+  p{
+    margin: 2rem;
   }
   
   

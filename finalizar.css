@@ -30,4 +30,29 @@ body{
             padding-top: 1.5rem;
             margin-left: 19.4rem;
          }
-          
+
+     .card{
+      width: 24rem;
+      height: 32rem;
+      background-color: rgb(192, 18, 18);
+      border-radius: 0.8rem;
+      margin: 11.5rem auto;
+      padding: 2.8rem;
+     }
+
+     .formulario-compra {
+      text-align: center;
+      margin-bottom: 8rem;
+      font-size: 1.2rem;
+
+     }
+     .formulario label{
+      display: block;
+      margin-top: 0.3rem;
+      margin-bottom: 0.2rem;
+      font-weight: bold;
+     }
+h2{
+
+  padding: 1.4rem;
+}

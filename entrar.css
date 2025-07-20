@@ -53,7 +53,7 @@ body{
 
 .card h1{
     font-size: 2.4rem;
-    margin-top: 1rem;
+    margin: 1rem 0 2rem 0 ;
     text-align: center;
 }
 
@@ -76,7 +76,7 @@ input{
     background-color:rgb(190, 186, 186);
     width: 16rem;
     font-size: 0.8rem;
-    margin-top: 1.4rem;
+    margin: 0.3rem 0 1.4rem 0;
     padding: 0.8rem 4.2rem; 
     border-radius: 0.5rem;
     cursor: pointer;
@@ -94,6 +94,7 @@ input{
     font-size: 0.9rem;
     color: rgb(14, 2, 85);
     text-decoration: none;
+    margin-bottom: 2.4rem;
 }
 .esqueceu-senha:hover {
     text-decoration: underline;

@@ -18,10 +18,11 @@
     </nav>
 </header>
 <body>
+    <div class="card">
     <div class="formulario-compra">
         <h2>Dados para Entrga</h2>
 
-        <form onsubmit="return finalizarCompra">
+        <form class="formulario" onsubmit="return finalizarCompra();">
             <label for="nome">Nome Completo</label>
             <input type="text" id="nome" name="nome" required>
 
@@ -32,7 +33,7 @@
             <input type="text" id="cep" name="cep" required>
 
             <label for="cidade">Cidade</label>
-            <input type="text" id="ciade" name="cidade" required>
+            <input type="text" id="cidade" name="cidade" required>
 
             <label for="bairro">Bairro</label>
             <input type="text" id="bairro" name="bairro" required>
@@ -40,7 +41,7 @@
             <label for="endereco">Endereço</label>
             <input type="text" id="endereco" name="endereco" required>
 
-            <label for="pagamento">Forama de Pagamento</label>
+            <label for="pagamento">Forma de Pagamento</label>
             <select id="pagamento" name="pagamento" required>
                 <option value="">Selecione</option>
                 <option value="pix">PIX</option>
@@ -52,6 +53,7 @@
             
         </form>
     </div>
+</div>
     
 </body>
 </html>

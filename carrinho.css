@@ -34,6 +34,7 @@ body{
           
 
     .card{
+      margin-top: 15rem;
     overflow-y: auto;
    width: 28rem;
     height: 36rem;
@@ -57,19 +58,19 @@ body{
     }
     
     .botoes{
-    margin: 40px;
+    margin: 2.4rem;
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     justify-content: center;
     }
     
     .btn-confirmar, .btn-inicial{
-    padding: 10px;
+    padding: 0.3rem 3rem;
     background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 0.6rem;
     transition: background-color 0.3s ease;
     
     }
@@ -99,21 +100,22 @@ body{
     margin-right: 8px;
     }
     .preco-produto {
-    color: #27ae60; /* verde */
+    color: #27ae60; 
     font-weight: 600;
     font-size: 1.1rem;
     }
     .btn-remover {
-    background-color: #e74c3c; /* vermelho */
+    background-color: #e74c3c; 
     border: none;
     color: white;
-    padding: 6px 12px;
+    margin-left: 0.5rem;
+    padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s ease;
     }
     .btn-remover:hover {
-    background-color: #c0392b; /* vermelho escuro no hover */
+    background-color: #c0392b; 
     }
     
