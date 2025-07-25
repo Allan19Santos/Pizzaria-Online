@@ -92,10 +92,22 @@ input{
 .esqueceu-senha{
     display: flex;
     font-size: 0.9rem;
-    color: rgb(14, 2, 85);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin-bottom: 2.4rem;
 }
 .esqueceu-senha:hover {
+    text-decoration: underline;
+  }
+  .criar-conta{
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+   }
+
+   .criar-conta:hover {
+    color: rgb(201, 201, 201);
     text-decoration: underline;
   }
