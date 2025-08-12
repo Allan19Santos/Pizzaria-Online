@@ -84,13 +84,4 @@ h2{
 
 }
 
-label {
-  font-family: 'Arial', sans-serif; /* Fonte */
-  font-weight: 600;                  /* Negrito leve */
-  font-size: 14px;                  /* Tamanho da fonte */
-  color: #333333;                   /* Cor do texto (cinza escuro) */
-  margin-bottom: 6px;               /* Espaço abaixo da label */
-  display: block;                   /* Para a label ficar em linha própria */
-  cursor: pointer;                 /* Cursor de mãozinha ao passar em cima */
-}
 
