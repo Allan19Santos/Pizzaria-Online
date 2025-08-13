@@ -49,6 +49,7 @@ body{
      }
      .formulario label{
       display: block;
+      padding: 0.4rem 6rem;
       margin-top: 0.3rem;
       margin-bottom: 0.2rem;
       font-weight: bold;
