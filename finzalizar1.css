@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body{
+    background-image: url(imagens/pizza2.jpg);
+    }
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    nav {
+        width: 100%;
+        height: 8rem;
+        margin: 0 auto;
+
+          background-color: rgb(192, 18, 18);
+          }
+    
+         .logo{
+            display: flex;
+            height: 6rem;
+            align-items: center;
+            padding-top: 1.5rem;
+            margin-left: 18.1rem;
+         }
+         .card{
+            width: 26rem;
+            height: 34rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 4rem;
+            margin: 12rem auto;
+            background-color: rgb(192, 18, 18);
+            border-radius: 1.6rem;
+         }
+         .formulario-compra label {
+            display: block;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            width: 80%;
+            font-weight: bold;
+         }
+
+         .formulario-compra input {
+        font-size: 1rem;
+        margin: 0.3rem auto;
+        display: block;
+        width: 80%;
+        outline: none;
+         }
+
+         h2{
+            font-size: 2.1rem;
+            margin-bottom: 1.2rem;
+            text-align: center;
+         }
+
+         label[for="pagamento"]{
+            margin-top: 1rem;
+
+         }
+         #pagamento,
+         .botao-confirmar{
+            margin-top: 0.4rem;
+            padding: 0.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 0.2rem;
+            
+        
+         }
